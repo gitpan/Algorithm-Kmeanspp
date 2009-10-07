@@ -3,6 +3,7 @@ name 'Algorithm-Kmeanspp';
 all_from 'lib/Algorithm/Kmeanspp.pm';
 
 requires 'Carp';
+requires 'Class::Accessor::Fast';
 requires 'List::Util';
 
 tests 't/*.t';
