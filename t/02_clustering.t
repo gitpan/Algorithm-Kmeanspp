@@ -3,12 +3,10 @@ use warnings;
 use Algorithm::Kmeanspp;
 use Test::More tests => 314;
 
-use constant {
-    NUM_DOCUMENT => 10,
-    NUM_KEY      => 30,
-    NUM_CLUSTER  => 3,
-    NUM_ITER     => 10,
-};
+use constant NUM_DOCUMENT => 10;
+use constant NUM_KEY      => 30;
+use constant NUM_CLUSTER  => 3;
+use constant NUM_ITER     => 10;
 
 my $kmp = Algorithm::Kmeanspp->new;
 

@@ -6,7 +6,7 @@ use base qw(Class::Accessor::Fast);
 use Carp qw(croak);
 use List::Util qw(shuffle);
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 __PACKAGE__->mk_accessors($_) for qw(vectors centroids clusters);
 
